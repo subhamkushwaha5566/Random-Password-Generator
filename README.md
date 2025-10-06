@@ -1,16 +1,59 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful **React-based Password Generator** that lets you create secure and customizable passwords instantly.  
+This project was built by **Shubham Kushwaha** to **understand the core concepts of React**, including hooks like `useState`, `useEffect`, `useCallback`, and `useRef`.  
+🧠 *Note: The main focus of this project is functionality and learning — not advanced UI design.*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
+🔗 **[View App on Vercel](https://random-password-generator-delta-steel.vercel.app/)**  
+*(Click the link to try it out instantly!)*
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Features
+✅ Generate strong, random passwords instantly  
+✅ Choose password length (6–100 characters)  
+✅ Toggle inclusion of numbers and special characters  
+✅ Copy password to clipboard with one click  
+✅ Auto-update password on every change  
+✅ Built with clean and reusable React hooks  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Purpose of the Project
+This project was created purely for **learning and practice**.  
+The goal was to:
+- Understand how React state and effects work together  
+- Learn how to use `useCallback` and `useRef` effectively  
+- Implement clipboard operations in a React environment  
+- Build confidence with component structuring and reactivity  
+
+💡 The UI is intentionally minimal — the focus was on logic, not design.  
+Future improvements may include a better visual design and theme customization.
+
+---
+
+## 🧠 Tech Stack
+- **React.js (Vite)**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **Vercel** for deployment
+
+---
+
+## 💻 Run Locally
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/subhamkushwaha5566/password-generator.git
+
+# 2️⃣ Navigate into the project folder
+cd password-generator
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Run the development server
+npm run dev
